@@ -9,7 +9,7 @@ import org.w3c.dom.Node;
 import java.util.*; 
 import java.lang.IndexOutOfBoundsException;
 
-public class SimpleLinkedList implements SimpleList
+public class SimpleLinkedList <Element> implements SimpleList
 {
    private class Node
    {
